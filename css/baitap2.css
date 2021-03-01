@@ -1,0 +1,103 @@
+.menu>ul>li{
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: white;
+    padding: 0 10px;
+    line-height: 30px;
+}
+
+.menu ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: orangered;
+    text-align: center;
+}
+
+.menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 20px;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+    font-weight: bolder;
+    display: block;
+}
+
+.menu>ul>li>a:hover{
+    color: yellow;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+}
+
+.menu ul ul a{
+    display: block;
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    list-style: none;
+    font-size: larger;
+    font-variant: small-caps;
+    padding: 0 10px;
+}
+
+.menu ul ul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: white;
+    box-shadow: 0 0 1px gray; 
+    position: absolute;
+    display: none;
+}
+
+.menu>ul>ul>a{
+    line-height: 30px;
+    color: orangered;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+  
+    padding: 0 10px;
+}
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+
+.menu>ul>li:hover>ul{
+    display: block;
+}
+
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px gray;
+}
+.vmenu a{
+    background: url(../image/tg000-200x200.png ) no-repeat left center;
+    border-bottom: 1px dotted orangered;
+    font-variant: small-caps;
+    color: blue;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 5px 8px 30px;
+    display: block
+}
+.vmenu a:hover{
+    background: url(../image/laptop.jpg)  no-repeat left center; 
+    border-bottom: orangered;
+    color: red;
+    font-weight: bolder;
+}

@@ -1,0 +1,40 @@
+.comtainer>header{
+    position: relative;
+}
+.comtainer-info{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-variant: small-caps;
+    color: white;
+    text-shadow: 0 0 2px orange;    
+}
+.comtainer-info>h1{
+    padding: 0px;
+    margin: 0px;
+    font-family: Impact;
+    font-size: 45px;
+}
+.comtainer-info>strong{
+    border-top: 1px dotted white;
+    font-size: larger;
+    letter-spacing: 3px;
+}
+.top-menu{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: orangered;
+    line-height: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 0 10px 0 30px;
+    box-shadow: 0 0 20px white;
+}
+.top-menu>a{
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+}
+.top-menu>a:hover{
+    color: yellow;
+}

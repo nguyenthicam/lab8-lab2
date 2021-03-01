@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    margin: 0 auto;
+    width: 1000px;
+}
+#banner{
+    min-height: 300px;
+    background-color: azure;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    position: relative;
+}
+#menu{
+    min-height: 50px;
+    background-color: orangered;
+}
+#content-left{
+    width: 75%;
+    min-height: 400px;
+    background-color: white;
+    float: left;
+    margin-bottom: 5px;
+}
+#content-right{
+    width: 25%;
+    min-height: 400px;
+    background-color: blanchedalmond;
+    float: right;
+    margin-bottom: 5px;
+}
+#footer{
+    min-height: 40px;
+    background-color: powderblue;
+    clear: both;
+
+}
+#top-menu{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: orangered;
+    border-bottom-left-radius: 30px;
+    padding: 5px 10px 5px 20px; 
+}
+#top-menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+#logo{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+#logo h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    text-shadow: 0 0 15px orangered;
+    color: white;
+}
+#logo h3{
+    font-size: 25px;
+    font-weight: bolder;
+    font-variant: small-caps;
+    color: orangered;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+#footer{
+    border-top: 5px double orangered;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+}
